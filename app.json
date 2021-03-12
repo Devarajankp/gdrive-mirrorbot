@@ -1,0 +1,66 @@
+{
+  "name": "GDrive-Mirror-Bot",
+  "description": "This is a telegram bot written in python for mirroring files on the internet to our beloved Google Drive",
+  "repository": "https://github.com/devarajankp/gdrive-mirrorbot",
+  "logo": "https://telegra.ph/file/8669281aa2360613f7511.jpg",
+  "keywords": ["Telegram", "Google Drive", "uploader"],
+  "env": {
+    "ENV": {
+      "description": "Set it to anything to enable configuration by environment variables.",
+      "value": "ANYTHING"
+    },
+    "BOT_TOKEN": {
+      "description": "Get it from @BotFather"
+    },
+    "APP_ID": {
+      "description": "Your API_ID, Get it from https://my.telegram.org/apps"
+    },
+    "API_HASH": {
+      "description": "Your API_HASH, Get it from https://my.telegram.org/apps"
+    },
+    "AUTH_CHATS": {
+      "description": "Chat ID's which you wanted to Authorize",
+      "value": "608679953"
+      },
+    "AUTO_DELETE_MESSAGE_DURATION": {
+      "description": "Interval of time (in second's), after which the bot deletes it's message (and command message) which is expected to be viewed instantly Note set to -1 to never automatically delete message",
+      "value": "20"
+    },
+    "DOWNLOAD_STATUS_UPDATE_INTERVAL": {
+      "description": "A short interval of time in seconds after which the mirror progress message is updated (I recommand to keep it 5  seconds at least",
+      "value": "5"
+    },
+    "DOWNLOAD_DIR": {
+      "description": "Custom path for downloads.",
+      "value": "/home/username/mirror-bot/downloads"
+      },
+    "GDRIVE_FOLDER_ID": {
+      "description": "This is the Folder ID of The Google Drive folder to which you want to upload all the mirrors",
+      "value": ""
+      },
+    "INDEX_URL": {
+      "description": "",
+      "value": ""
+      },
+    "IS_TEAM_DRIVE": {
+      "description": "",
+      "value": ""
+      },
+    "OWNER_ID": {
+      "description": "",
+      "value": ""
+      },
+    "SECRET_JASON": {
+      "description": "",
+      "value": ""
+      },
+    "SESSION_STRING": {
+      "description": "",
+      "value": ""
+      },
+    "USE_SERVICE_ACCOUNTS": {
+      "description": "",
+      "value": ""
+    }
+  ]
+}
